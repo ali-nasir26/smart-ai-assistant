@@ -1,0 +1,101 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hai",
+        "Hi",
+        "Hi there",
+        "Hello",
+        "Hey",
+        "Yo"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "That's nice of you", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "no answer",
+      "patterns": [""],
+      "responses": [
+        "Sorry I didn't understand, can you put it in some other way?"
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "What can you do",
+        "How can you help me",
+        "What help can you provide",
+        "How to make a module",
+        "I want to add a function"
+      ],
+      "responses": [
+        "you can costumize me to do anything or response in any way you want, you can get help here :- https://github.com/sanjaybora04/CustomAiAssistant/blob/main/readme.md"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "who are you",
+        "What is your name"
+      ],
+      "responses": [
+        "I am your personal assistant, you can call me anything you like"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "you are dumb",
+        "you are a fool",
+        "you are useless",
+        "shut up",
+        "idiot"
+      ],
+      "responses": [
+        "Well that hurts :("
+      ]
+    },
+    {
+      "tag": "DateAndTime",
+      "patterns": [
+        "What time is it",
+        "What data is today",
+        "which day is today",
+        "Whats the time",
+        "Can you tell me time"
+      ],
+      "responses": [
+        "module"
+      ]
+    },
+    {
+      "tag": "Led",
+      "patterns": [
+        "Turn on the Led",
+        "Turn off Led",
+        "Can you turn on Light",
+        "Please turn on the Lights"
+      ],
+      "responses":["module"]
+    }
+  ]
+}
